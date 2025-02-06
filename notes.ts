@@ -65,3 +65,7 @@ type ResultCombines = GetPromiseReturnType<
 // I cannot pass anything to return type. if you check the definition type ReturnType<T extends (...args: any) => any> = T extends (...args: any) => infer R ? R : any; there is a constraint. that is why we added the extension.
 // @ts-expect-error
 type Result3 = ReturnType<number>
+
+class Human {
+  name: string = 'Alessandro'
+}
