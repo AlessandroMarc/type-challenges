@@ -19,11 +19,11 @@
     "fast-glob": "^3.3.2",
     "fs-extra": "^11.2.0",
     "js-yaml": "^4.1.0",
-    "lz-string": "^1.5.0"
+    "lz-string": "^1.5.0",
+    "zod": "^3.24.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.0",
-    "@type-challenges/utils": "workspace:*",
     "@types/fs-extra": "^11.0.4",
     "@types/js-yaml": "^4.0.9",
     "@types/lz-string": "^1.5.0",
